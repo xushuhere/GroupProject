@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Customer Main Menu</title>
+<style>
+html, body {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 20px
+}
+
+.buttonsize {
+	width: 200px;
+}
+</style>
+</head>
+<body>
+	<h1>Main Menu</h1>
+	<form action="Login.php" method="post">
+	<button class="buttonsize" id="view_profile" type="button" onClick="location.href='Profile.php'">View
+		Profile</button>
+	<br>
+	<br>
+	<button class="buttonsize" id="check_tool_avail" type="button" onClick="location.href='CheckAvailability.php'">Check
+		Tool Availability</button>
+	<br>
+	<br>
+	<button class="buttonsize" id="make_reservation" type="button" onClick="location.href='MakeReservation.php'">Make
+		Reservation</button>
+	<br>
+	<br>
+	<button id="submit" type="submit">Exit</button>
+	</form>
+</body>
+</html>

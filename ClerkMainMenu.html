@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Clerk Main Menu</title>
+<style>
+html, body {
+	text-align: center;
+	margin: 0px auto;
+	padding-top:20px
+}
+.buttonsize {
+	width: 200px;
+}
+</style>
+</head>
+<body>
+<h1>Main Menu</h1>
+<form action="#" method="post">
+<p>
+<button class="buttonsize" id="pickup_res" type="button" onclick="location.href='PickUp.html'">Pick-Up Reservation</button>
+</p>
+<p>
+<button class="buttonsize" id="dropoff_res" type="button" onclick="location.href='DropOff.html'">Drop-Off Reservation</button>
+</p>
+<p>
+<button class="buttonsize" id="service_order" type="button" onclick="location.href='ServiceOrder.html'">Service Order</button>
+</p>
+<p>
+<button class="buttonsize" id="add_new" type="button" onclick="location.href='AddNewTool.html'">Add New Tool</button>
+</p>
+<p>
+<button class="buttonsize" id="sell_tool" type="button" onclick="location.href='SellTool.html'">Sell Tool</button>
+</p>
+<p>
+<button class="buttonsize" id="report" type="button" onclick="window.open('firstreport.php'); window.open('secondreport.php'); window.open('thirdreport.php');">Generate Reports</button></p>
+<p>
+<button id="exit" type="button" onclick="location.href='Login.html'">Exit</button>
+</p>
+</form>
+</body>
+</html>

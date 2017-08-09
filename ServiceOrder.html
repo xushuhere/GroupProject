@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Service Order</title>
+<style>
+html, body, table {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 20px
+}
+
+</style>
+</head>
+<body>
+<h1>Service Order Request</h1>
+  
+	<form action="ServiceOrder.php" method="post">
+		<table>
+			<tr>
+				<td align="left">ToolID:</td>
+				<td><input name="TID" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Starting Date</td>
+				<td><input name="start_date" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Ending Date</td>
+				<td><input name="end_date" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Estimated Cost of Repair $</td>
+				<td><input name="cost" type="text"></td>
+			</tr>
+			<tr>
+			<td> <input name="submit" type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

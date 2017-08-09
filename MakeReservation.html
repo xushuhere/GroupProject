@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Make Reservation</title>
+<style>
+html, body, table {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 20px
+}
+
+.selectsize {
+	width: 180px;
+}
+</style>
+</head>
+<body>
+	<h1>Make Reservation</h1>
+	<form action="#" method="post">
+		<table>
+			<tr>
+				<td align="left">Starting Date</td>
+				<td><input id="ResStartDate" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Ending Date</td>
+				<td><input id="ResEndDate" type="text"></td>
+			</tr>
+		</table>
+		<br> <br>
+		<table>
+			<tr>
+				<td align="left">Type of Tool</td>
+				<td align="left">Tool</td>
+			</tr>
+			<tr>
+				<td><select class="selectsize">
+						<option value="Hand Tools">Hand Tools</option>
+						<option value="Power Tools">Power Tools</option>
+						<option value="Construction Equipment">Construction Equipment</option>
+				</select></td>
+				<td><select class="selectsize">
+						<option value="tool1"> </option>
+						<option value="tool2"> </option>
+						<option value="tool3"> </option>
+						<option value="t4ol1"> </option>
+				</select></td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<td><button class="selectsize" id="add_more_tools"
+						type="button">Add More Tools</button></td>
+				<td><button class="selectsize" id="remove_last_tool"
+						type="button">Remove Last Tool</button></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td><button class="selectsize" id="calculate_total"
+						type="button">Calculate Total</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

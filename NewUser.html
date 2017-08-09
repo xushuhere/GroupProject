@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New User</title>
+<style>
+html, body,table {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 20px
+}
+</style>
+</head>
+<body>
+	<h1 style="font-family: times">Create a Profile</h1>
+	<h2 style="font-family: times">
+		Handyman Tools Rental requires a valid profile for every<br> user
+		before they can make reservations. 
+	</h2>
+
+	<form action="NewUser.php" method="post">
+		<table>
+			<tr>
+				<td align="left">Email Address (Login)</td>
+				<td><input name="email" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Password</td>
+				<td><input name="password" type="password"></td>
+			</tr>
+			<tr>
+				<td align="left">Confirm Password</td>
+				<td><input name="conf_password" type="password"></td>
+			</tr>
+			<tr>
+				<td align="left">First Name</td>
+				<td><input name="FirstName" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Last Name</td>
+				<td><input name="LastName" type="text"></td>
+			</tr>
+			<tr>
+				<td align="left">Home Phone</td>
+				<td><input name="CountryCodeH" type="text" size="4">
+                                    <input name="LocalNumH" type="text" size="10"></td>
+			</tr>
+			<tr>
+				<td align="left">Work Phone</td>
+				<td><input name="CountryCodeW" type="text" size="4">
+                                    <input name="LocalNumW" type="text" size="10"></td>
+			</tr>
+			<tr>
+				<td align="left">Address</td>
+				<td> <textarea name="Address" cols=30 rows=4></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<input name="submit" type="submit" value="Submit">
+	</form>
+	<br>
+</body>
+</html>
